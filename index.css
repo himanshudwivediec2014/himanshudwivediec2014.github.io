@@ -1,0 +1,1331 @@
+:root{
+	font-size: 18px;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	display: flex;
+	flex-direction: column;
+	background-color: #FFFFFF;
+	}
+
+
+/*CSS for Quote*/	
+	.container .quote{
+		margin-left: 1vw;
+		margin-right: 1vw;
+		font-family: 'Parisienne', cursive;
+		font-size: 3rem;
+		font-weight: bold;
+		color: navy;
+		line-height: 10vh;
+		text-align: center;
+		border-bottom: 2px solid #FFAF93;
+		border-radius: 2vw;
+		box-shadow: 5px 5px 8px #907373;
+		transition: text-shadow 0.3s ease 0.1s;
+	}
+	.container .quote:hover{
+		cursor: pointer;
+		text-shadow: 5px 5px 10px #C7B8E8;
+	}
+/*ends here*/
+
+
+/*CSS for Section-One*/
+	.container .section-one{
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		align-items: center;
+		margin: 10vh 5vw 0 5vw;
+		box-shadow: 8px 8px 11px #907373;
+		border-radius: 50px;
+		background-color: #FFAF93;
+	}
+		.section-one #about_heading{
+				font-family: 'Tangerine', cursive;
+				font-size: 1.8rem;
+				color: navy;
+				line-height: 0.8vh;
+				text-align: center;				
+				padding: 0.1vh 1.4vw 0.1vh 1.6vw;
+				margin-top: 10vh;
+				border: 2px inset;
+				border-radius: 70px;
+				box-shadow: 5px 5px 7px navy;
+				transition: box-shadow 0.3s ease 0.1s, text-shadow 0.3s ease 0.1s;	
+		}
+		.section-one #about_heading:hover{
+				box-shadow: 7px 7px 8px navy;
+				text-shadow: 2px 2px 4px navy;
+				cursor: pointer;
+		}
+		.section-one .wrapper_about{
+			display: flex;
+			margin-top: 10vh;
+			margin-bottom: 10vh;
+			align-items: center;
+		}
+			.wrapper_about .para{
+				display: flex;
+				flex-direction: column;
+				flex-wrap: wrap;
+				width: 60vw;
+			}
+				.para #para-one{
+					font-family: 'Eczar', serif;
+					font-size: 1.5rem;
+					font-weight: bold;
+					text-align: center;							
+				}					
+				.para #para-two{											
+					font-family: font-family: 'Eczar', serif;
+					font-size: 1.2rem;
+					text-align: center;
+					line-height: 8vh;						
+				}
+					a{
+						font-family: 'Tangerine', cursive;
+						font-weight: bold;
+						font-size: 2.7rem;
+						color: navy;
+						text-shadow: none;
+						transition: color 0.2s ease 0.1s, font-size 0.2s ease 0.1s, text-shadow 0.2s ease 0.1s;				
+					}
+					a:link{
+						text-decoration: none;
+					}
+					a:hover{
+						font-size: 2.8rem;
+						color: navy;
+						text-shadow: 2px 2px 4px navy;
+					}
+		.wrapper_about #my-image{
+			width: 22vw;
+			height: 75vh;
+			margin-left: 1vw;
+			border-radius: 40px;
+			box-shadow: 5px 7px 20px #907373;
+			transition: box-shadow 0.3s ease 0.1s;
+		}
+		.wrapper_about #my-image:hover{
+			box-shadow: 10px 15px 30px #5D5858;
+			cursor: pointer;
+		}
+/*CSS for Section-One ends here*/
+
+
+/*CSS for Section-Two*/		
+	.container .section-two{
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		align-items: center;
+		margin: 15vh 5vw 0 5vw;
+		box-shadow: 8px 8px 11px #907373;
+		border-radius: 50px;
+		background-color: #E8D0B9;
+	}
+		.section-two #edu_heading{	
+			font-family: 'Tangerine', cursive;
+			font-size: 2rem;
+			color: navy;
+			line-height: 0.8vh;
+			margin-top: 7vh;			
+			padding: 0.1vh 1.6vw 0.1vh 1.8vw;
+			border: 2px inset;
+			border-radius: 70px;
+			box-shadow: 5px 5px 7px navy;
+			transition: box-shadow 0.3s ease 0.1s, text-shadow 0.3s ease 0.1s;
+		}
+		.section-two #edu_heading:hover{
+			text-shadow: 2px 2px 4px navy;
+			box-shadow: 7px 7px 8px navy;
+			cursor: pointer;
+		}		
+			.wrapper_education{
+				display: flex;
+				margin-top: 12vh;
+				margin-bottom: 8vh;
+				align-items: center;							
+			}
+				.wrapper_education #education_img{
+					width: 40vw;
+					height: 50vh;					
+					border-radius: 40px;
+					box-shadow: 5px 7px 20px #907373;
+					transition: box-shadow 0.3s ease 0.1s;
+				}
+				.wrapper_education #education_img:hover{
+					box-shadow: 10px 15px 30px #5D5858;
+					cursor: pointer;
+				}
+				.wrapper_education .para-three{
+					width: 40vw;
+					padding-left: 3vw;
+					line-height: 5vh;
+					font-family: font-family: 'Eczar', serif;
+					font-size: 1.1rem;
+					text-align: justify;
+				}
+/*CSS for Section-Two ends here*/
+
+
+/*CSS for Section-Three*/
+	.container .section-three{
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		align-items: center;
+		margin: 15vh 5vw 0 5vw;
+		box-shadow: 8px 8px 11px #907373;
+		border-radius: 50px;
+		background-color: #A2C0C0;
+	}
+		.section-three #intt_heading{	
+			font-family: 'Tangerine', cursive;
+			font-size: 2rem;
+			color: navy;
+			line-height: 0.8vh;
+			margin-top: 10vh;
+			padding: 0.1vh 1.6vw 0.1vh 1.8vw;
+			border: 2px inset;
+			border-radius: 70px;
+			box-shadow: 5px 5px 7px navy;
+			transition: box-shadow 0.3s ease 0.1s, text-shadow 0.3s ease 0.1s;
+		}
+		.section-three #intt_heading:hover{
+			text-shadow: 2px 2px 4px navy;
+			box-shadow: 7px 7px 8px navy;
+			cursor: pointer;
+		}
+			.wrapper_interests{
+				display: flex;
+				margin-top: 10vh;
+				margin-bottom: 12vh;
+				align-items: center;
+			}
+				.wrapper_interests #para-four{
+					width: 40vw;
+					font-family: font-family: 'Eczar', serif;
+					font-size: 1.5rem;
+				}
+				.wrapper_interests #info_img{
+					width: 25vw;
+					height: 55vh;
+					border-radius: 40px;
+					box-shadow: 5px 7px 20px #907373;
+					transition: box-shadow 0.3s ease 0.1s;
+				}
+				.wrapper_interests #info_img:hover{
+						box-shadow: 10px 15px 30px #5D5858;
+						cursor: pointer;
+					}
+/*CSS for Section-Three ends here*/					
+
+
+/*CSS for Section-Four*/
+	.container .section-four{
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		align-items: center;
+		margin: 15vh 5vw 0 5vw;
+		box-shadow: 8px 8px 11px #907373;
+		border-radius: 50px;
+		background-color: #BEC2C1;
+	}	
+		.section-four #tech_heading{	
+			font-family: 'Parisienne', cursive;
+			font-size: 1.5rem;
+			color: navy;
+			line-height: 5vh;
+			text-align: center;			
+			padding: 0.1vh 1vw 0.1vh 1.3vw;
+			margin-top: 10vh;
+			border: 2px inset;
+			border-radius: 70px;
+			box-shadow: 5px 5px 7px navy;
+			transition: box-shadow 0.3s ease 0.1s, text-shadow 0.3s ease 0.1s;
+		}
+		.section-four #tech_heading:hover{
+			text-shadow: 2px 2px 4px navy;
+			box-shadow: 7px 7px 8px navy;
+			cursor: pointer;
+		}
+		.section-four .wrapper_tech{
+			display: flex;
+			margin-top: 10vh;
+			margin-bottom: 10vh;
+			align-items: center;
+		}	
+			.wrapper_tech #intt-tech_img{
+				width: 34vw;
+				height: 75vh;
+				margin-left: 1vw;
+				border-radius: 40px;
+				box-shadow: 5px 7px 20px #907373;
+				transition: box-shadow 0.3s ease 0.1s;
+			}
+			.wrapper_tech #intt-tech_img:hover{
+				box-shadow: 10px 15px 30px #5D5858;
+				cursor: pointer;
+			}		
+			.wrapper_tech #para-five{
+				width:43vw;
+				padding-left: 6vw;
+				font-family: font-family: 'Eczar', serif;
+				font-size: 1.2rem;
+				text-align: justify;
+			}
+/*CSS for Section-Four ends here*/
+
+
+/*CSS for Section-Five*/
+	.container .section-five{
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		align-items: center;
+		margin: 15vh 5vw 0 5vw;
+		box-shadow: 8px 8px 11px #907373;
+		border-radius: 50px;
+		background-color: #DDD1BB;
+	}
+		.section-five #exp_heading{	
+			font-family: 'Parisienne', cursive;
+			font-size: 1.5rem;
+			color: navy;
+			line-height: 5vh;
+			text-align: center;
+			margin-top: 10vh;
+			padding: 0.1vh 1vw 0.1vh 1.3vw;
+			border: 2px inset;
+			border-radius: 70px;
+			box-shadow: 5px 5px 7px navy;
+			transition: box-shadow 0.3s ease 0.1s, text-shadow 0.3s ease 0.1s;
+		}
+		.section-five #exp_heading:hover{
+			text-shadow: 2px 2px 4px navy;
+			box-shadow: 7px 7px 8px navy;
+			cursor: pointer;
+		}
+		.section-five .wrapper_exp{
+			display: flex;
+			margin-top: 10vh;
+			margin-bottom: 10vh;
+			align-items: center;
+		}
+			.wrapper_exp #para-six{
+				width:58vw;
+				font-family: font-family: 'Eczar', serif;
+				font-size: 1.1rem;
+			}
+				#para-six #recent_work_exp{
+					padding-top: 1.5vh;
+					padding-bottom: 1.5vh;
+					text-align: center;
+					line-height: 6vh;
+					border-left: 2px solid silver;
+					border-bottom: 2px solid silver;
+					border-radius: 40px;
+					box-shadow: 7px 10px 30px #907373;
+				}
+				#para-six #prev_exp	{
+					text-align: justify;
+				}
+			.wrapper_exp #prof_exp_img{
+				width: 24.5vw;
+				height: 52vh;
+				margin-left: 2vw;
+				border-radius: 900px;
+				box-shadow: 5px 7px 20px #907373;
+				transition: box-shadow 0.3s ease 0.1s;
+			}
+			.wrapper_exp #prof_exp_img:hover{
+				box-shadow: 10px 15px 30px #5D5858;
+				cursor: pointer;
+			}
+/*CSS for Section-Five ends here*/
+
+
+/*CSS for Section-Six*/					
+	.container .section-six{
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		align-items: center;
+		margin: 15vh 5vw 0 5vw;
+		box-shadow: 8px 8px 11px #907373;
+		border-radius: 50px;
+		background-color: #DDEDC2;
+	}	
+		.section-six #recent_heading{	
+			font-family: 'Parisienne', cursive;
+			font-size: 1.5rem;
+			color: navy;
+			line-height: 5vh;
+			text-align: center;
+			margin-top: 10vh;
+			padding: 0.1vh 1vw 0.1vh 1.3vw;
+			border: 2px inset;
+			border-radius: 70px;
+			box-shadow: 5px 5px 7px navy;
+			transition: box-shadow 0.3s ease 0.1s, text-shadow 0.3s ease 0.1s;
+		}
+		.section-six #recent_heading:hover{
+			text-shadow: 2px 2px 4px navy;
+			box-shadow: 7px 7px 7px navy;
+			cursor: pointer;
+		}
+		.section-six .wrapper_project{
+			display: flex;
+			align-items: center;
+			margin-top: 10vh;
+			margin-bottom: 10vh;
+		}	
+			.wrapper_project #recent_project_img{
+				width: 24vw;
+				height: 51vh;
+				margin-left: 1vw;
+				align-self: center;
+				border-radius: 900px;
+				box-shadow: 5px 7px 20px #907373;
+				transition: box-shadow 0.3s ease 0.1s;
+			}
+			.wrapper_project #recent_project_img:hover{
+				box-shadow: 10px 15px 30px #5D5858;
+				cursor: pointer;
+			}
+
+			.wrapper_project #para-seven{
+				width:58vw;
+				margin-left: 4vw;
+				font-family: font-family: 'Eczar', serif;
+				font-size: 1.1rem;
+			}	
+				#para-seven #recent{
+					text-align: left;					
+				}
+				#para-seven #project{					
+					text-align: justify;
+				}
+/*CSS for Section-Six ends here*/	
+
+
+/*CSS for Section-Seven*/					
+	.container .section-seven{
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		margin: 15vh 1vw 5vh 1vw; 
+		text-align: center;
+		align-content: center;
+		border-top: 3px solid #DDEDC2;
+		border-radius: 3vw;
+		box-shadow: 5px 5px 8px #907373;
+		text-shadow: 2px 2px 4px #907373;
+	}			
+
+		.wrapper_reach_at{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+		.wrapper_reach_at .icon_group{
+			box-shadow: none;
+			text-shadow: none;
+		}
+
+			#linkedin{
+				width: 3vw;
+				height: 6vh;
+				margin-right: 1.5vw;
+				border-radius: 7px;
+				transition: box-shadow 0.3s ease 0.1s;
+			}
+
+			#linkedin:hover{
+				box-shadow: 3px 3px 4px;
+			}
+			#insta{
+				width: 3vw;
+				height: 6vh;
+				margin-right: 1.5vw;
+				border-radius: 7px;
+				transition: box-shadow 0.3s ease 0.1s;
+			}
+			#insta:hover{
+				box-shadow: 3px 3px 4px;
+			}
+			#facebook{
+				width: 3vw;
+				height: 6vh;
+				margin-right: 1.5vw;
+				border-radius: 7px;
+				transition: box-shadow 0.3s ease 0.1s;
+			}
+			#facebook:hover{
+				box-shadow: 3px 3px 4px;
+			}
+/*CSS for Section-Seven ends here*/	
+
+
+/*Media Query for small screen Mobile Phones (below 320px)*/			
+	@media only screen and (max-width: 320px) {
+
+		.container .quote{
+			font-size: 2.2rem;
+		}
+
+		/*1.About-Me Section*/
+			.wrapper_about{
+				flex-direction: column;
+			}
+				.section-one #about_heading{
+					order: 0;
+					font-size: 1.5rem;
+				}
+				.wrapper_about #my-image{
+					order: 1;
+					width: 62vw;
+					height: 57vh;
+				}
+				.wrapper_about .para{
+					order: 2;
+					flex-direction: column;
+				}
+		/*About-Me Section ends here*/
+
+
+		/*2.Education Section*/
+			.wrapper_education{
+				flex-direction: column;
+			}
+				.section-two #edu_heading{
+					order: 0;
+					font-size: 1.5rem;
+				}
+				.wrapper_education #education_img{
+					order: 1;
+					width: 70vw;
+					height: 28vh;
+				}
+				.wrapper_education .para-three{
+					order: 2;
+					text-align:left;
+				}
+		/*Education Section ends here*/
+
+
+		/*3.Personal Interests Section*/
+			.wrapper_interests{
+				flex-direction: column;
+			}
+				.section-three #intt_heading{
+					order: 0;
+					font-size: 1.7rem;
+				}
+				.wrapper_interests #info_img{
+					order: 1;
+					width: 65vw;
+					height: 45vh;
+				}
+				.wrapper_interests #para-four{
+					order: 2;
+					text-align: left;
+				}
+		/*Personal Interests Section ends here*/
+
+
+		/*4.Technical Interests Section*/
+			.wrapper_tech{
+				flex-direction: column;
+			}
+				.section-four #tech_heading{
+					order: 0;
+					font-size: 1.2rem;
+				}
+				.wrapper_tech #intt-tech_img{
+					order: 1;
+					width: 64vw;
+					height: 42vh;
+				}
+				.wrapper_tech #para-five{
+					order: 2;
+					text-align: center;
+				}
+				.wrapper_tech #para-five #tech_one{
+					text-align: left;
+				}
+				.wrapper_tech #para-five #tech_two{
+					text-align: left;
+				}
+		/*Technical Interests Section ends here*/
+
+
+		/*5.Experience Section*/
+			.wrapper_exp{
+				flex-direction: column;
+			}
+				.section-five #exp_heading{
+					order: 0;
+					font-size: 1.2rem;
+				}
+				.wrapper_exp #prof_exp_img{
+					order: 1;
+					width: 58vw;
+					height: 34vh;
+				}
+				.wrapper_exp #para-six{
+					order: 2;
+				}
+				#para-six #prev_exp{
+					text-align: center;
+				}
+		/*Experience Section ends here*/
+
+
+
+		/*6.Recent Projects Section*/
+			.wrapper_project{
+				flex-direction: column;
+			}
+				.section-six #recent_heading{
+					order: 0;
+					font-size: 1.2rem;
+				}
+				.wrapper_project #recent_project_img{
+					order: 1;
+					width: 62vw;
+					height: 36vh;
+				}
+				.wrapper_project #para-seven{
+					order: 2;
+				}
+				#para-seven #recent{
+					text-align: center;
+				}
+				#para-seven #project{
+					text-align: center;
+				}
+		/*Recent Projects Section ends here*/
+
+
+		/*7.Contact Information Section*/
+			#linkedin{
+					width: 11vw;
+					height: 6vh;
+			}
+			#insta{
+					width: 11vw;
+					height: 6vh;				
+				}
+			#facebook{
+					width: 12vw;
+					height: 6vh;
+				}	
+		/*Contact Information Section ends here*/
+	}
+/*Media Query ends here*/
+
+
+/*Media Query for Mobiles with M-size screens*/
+	@media only screen and (min-width: 321px) and (max-width: 375px){
+		.container .quote{
+				font-size: 2.4rem;
+			}
+
+			/*1.About-Me Section*/
+				.wrapper_about{
+					flex-direction: column;
+				}
+					.section-one #about_heading{
+						order: 0;
+						font-size: 1.5rem;
+					}
+					.wrapper_about #my-image{
+						order: 1;
+						width: 62vw;
+						height: 66vh;
+					}
+					.wrapper_about .para{
+						order: 2;
+						flex-direction: column;
+					}
+			/*About-Me Section ends here*/
+
+
+			/*2.Education Section*/
+				.wrapper_education{
+					flex-direction: column;
+				}
+					.section-two #edu_heading{
+						order: 0;
+						font-size: 1.5rem;
+					}
+					.wrapper_education #education_img{
+						order: 1;
+						width: 70vw;
+						height: 30vh;
+					}
+					.wrapper_education .para-three{
+						order: 2;
+						text-align:left;
+					}
+			/*Education Section ends here*/
+
+
+			/*3.Personal Interests Section*/
+				.wrapper_interests{
+					flex-direction: column;
+				}
+					.section-three #intt_heading{
+						order: 0;
+						font-size: 1.7rem;
+					}
+					.wrapper_interests #info_img{
+						order: 1;
+						width: 65vw;
+						height: 47vh;
+					}
+					.wrapper_interests #para-four{
+						order: 2;
+						text-align: left;
+					}
+			/*Personal Interests Section ends here*/
+
+
+			/*4.Technical Interests Section*/
+				.wrapper_tech{
+					flex-direction: column;
+				}
+					.section-four #tech_heading{
+						order: 0;
+						font-size: 1.2rem;
+					}
+					.wrapper_tech #intt-tech_img{
+						order: 1;
+						width: 64vw;
+						height: 45vh;
+					}
+					.wrapper_tech #para-five{
+						order: 2;
+						text-align: center;
+					}
+					.wrapper_tech #para-five #tech_one{
+						text-align: left;
+					}
+					.wrapper_tech #para-five #tech_two{
+						text-align: left;
+					}
+			/*Technical Interests Section ends here*/
+
+
+			/*5.Experience Section*/
+				.wrapper_exp{
+					flex-direction: column;
+				}
+					.section-five #exp_heading{
+						order: 0;
+						font-size: 1.2rem;
+					}
+					.wrapper_exp #prof_exp_img{
+						order: 1;
+						width: 62vw;
+						height: 42vh;
+					}
+					.wrapper_exp #para-six{
+						order: 2;
+					}
+					#para-six #prev_exp{
+						text-align: center;
+					}
+			/*Experience Section ends here*/
+
+
+			/*6.Recent Projects Section*/
+				.wrapper_project{
+					flex-direction: column;
+				}
+					.section-six #recent_heading{
+						order: 0;
+						font-size: 1.2rem;
+					}
+					.wrapper_project #recent_project_img{
+						order: 1;
+						width: 62vw;
+						height: 42vh;
+					}
+					.wrapper_project #para-seven{
+						order: 2;
+					}
+					#para-seven #recent{
+						text-align: center;
+					}
+					#para-seven #project{
+						text-align: center;
+					}
+			/*Recent Projects Section ends here*/
+
+
+			/*7.Contact Information Section*/
+				#linkedin{
+						width: 9vw;
+						height: 6vh;
+				}
+				#insta{
+						width: 9vw;
+						height: 6vh;				
+					}
+				#facebook{
+						width: 10vw;
+						height: 6vh;
+					}	
+			/*Contact Information Section ends here*/		
+	}	
+/*Media Query ands here*/
+
+
+/*Media Query for Mobiles with L-size screens*/
+	@media only screen and (min-width: 376px) and (max-width: 425px) {
+
+		.container .quote{
+			font-size: 2.4rem;
+		}
+
+		/*1.About-Me Section*/
+			.wrapper_about{
+				flex-direction: column;
+			}
+				.section-one #about_heading{
+					order: 0;
+					font-size: 1.6rem;
+				}
+				.wrapper_about #my-image{
+					order: 1;
+					width: 58vw;
+					height: 70vh;
+				}
+				.wrapper_about .para{
+					order: 2;
+					flex-direction: column;
+				}
+		/*About-Me Section ends here*/
+
+
+		/*2.Education Section*/
+			.wrapper_education{
+				flex-direction: column;
+			}
+				.section-two #edu_heading{
+					order: 0;
+					font-size: 1.7rem;
+				}
+				.wrapper_education #education_img{
+					order: 1;
+					width: 74vw;
+					height: 34vh;
+				}
+				.wrapper_education .para-three{
+					order: 2;
+					text-align:center;
+				}
+		/*Education Section ends here*/
+
+
+		/*3.Personal Interests Section*/
+			.wrapper_interests{
+				flex-direction: column;
+			}
+				.section-three #intt_heading{
+					order: 0;
+					font-size:	1.9rem;
+				}
+				.wrapper_interests #info_img{
+					order: 1;
+					width: 65vw;
+					height: 50vh;
+				}
+				.wrapper_interests #para-four{
+					order: 2;
+					text-align: left;
+				}
+		/*Personal Interests Section ends here*/
+
+
+		/*4.Technical Interests Section*/
+			.wrapper_tech{
+				flex-direction: column;
+			}
+				.section-four #tech_heading{
+					order: 0;
+					font-size: 1.4rem;
+				}
+				.wrapper_tech #intt-tech_img{
+					order: 1;
+					width: 60vw;
+					height: 45vh;
+				}
+				.wrapper_tech #para-five{
+					order: 2;
+					text-align: center;
+				}
+				.wrapper_tech #para-five #tech_one{
+					text-align: left;
+				}
+				.wrapper_tech #para-five #tech_two{
+					text-align: left;
+				}
+		/*Technical Interests Section ends here*/
+
+
+		/*5.Experience Section*/
+			.wrapper_exp{
+				flex-direction: column;
+			}
+				.section-five #exp_heading{
+					order: 0;
+					font-size: 1.4rem;
+				}
+				.wrapper_exp #prof_exp_img{
+					order: 1;
+					width: 65vw;
+					height: 50vh;
+				}
+				.wrapper_exp #para-six{
+					order: 2;
+				}
+				#para-six #prev_exp{
+					text-align: center;
+				}
+		/*Experience Section ends here*/
+
+
+		/*6.Recent Projects Section*/
+			.wrapper_project{
+				flex-direction: column;
+			}
+				.section-six #recent_heading{
+					order: 0;
+					font-size: 1.4rem;
+				}
+				.wrapper_project #recent_project_img{
+					order: 1;
+					width: 65vw;
+					height: 50vh;
+				}
+				.wrapper_project #para-seven{
+					order: 2;
+				}
+				#para-seven #recent{
+					text-align: center;
+				}
+				#para-seven #project{
+					text-align: center;
+				}
+		/*Recent Projects Section ends here*/
+
+
+		/*7.Contact Information Section*/
+			#linkedin{
+					width: 8vw;
+					height: 6vh;
+			}
+			#insta{
+					width: 8vw;
+					height: 6vh;				
+				}
+			#facebook{
+					width: 9vw;
+					height: 6vh;
+				}	
+		/*Contact Information Section ends here*/
+	}
+/*Media Query ands here*/
+
+
+/*Media Query for Tablets*/
+	@media only screen and (min-width: 426px) and (max-width: 768px) {
+
+		.container .quote{
+				font-size: 2.5rem;
+			}
+		
+		/*1.About-Me Section*/
+			.section-four #tech_heading{
+				font-size: 1.2rem;
+			}
+				.wrapper_about{
+					flex-direction: column;
+				}
+					.section-one #about_heading{
+						font-size: 1.7rem;
+						order: 0;
+					}
+					.wrapper_about #my-image{
+						order: 1;
+						width: 36vw;
+						height: 75vh;
+					}
+					.wrapper_about .para{
+						order: 2;
+						flex-direction: column;
+					}
+		/*About-Me Section ends here*/
+
+
+		/*2.Education Section*/
+			.wrapper_education{
+				flex-direction: column;
+			}
+				.section-two #edu_heading{
+					order: 0;
+					font-size: 1.7rem;
+				}
+				.wrapper_education #education_img{
+					order: 1;
+					width: 65vw;
+					height: 40vh;
+				}
+				.wrapper_education .para-three{
+					order: 2;
+					text-align:center;
+				}
+		/*Education Section ends here*/
+
+
+		/*3.Personal Interests Section*/
+			.wrapper_interests{
+				flex-direction: column;
+			}
+				.section-three #intt_heading{
+					order: 0;
+					font-size: 1.7rem;
+				}
+				.wrapper_interests #info_img{
+					order: 1;
+					width: 40vw;
+					height: 50vh;
+				}
+				.wrapper_interests #para-four{
+					order: 2;
+					text-align: left;
+					font-size: 1.3rem;
+				}
+		/*Personal Interests Section ends here*/
+
+
+		/*4.Technical Interests Section*/
+			.wrapper_tech{
+				flex-direction: column;
+			}
+				.section-four #tech_heading{
+					order: 0;
+				}
+				.wrapper_tech #intt-tech_img{
+					order: 1;
+					width: 40vw;
+					height: 50vh;
+				}
+				.wrapper_tech #para-five{
+					order: 2;
+					text-align: center;
+				}
+				.wrapper_tech #para-five #tech_one{
+					text-align: left;
+				}
+				.wrapper_tech #para-five #tech_two{
+					text-align: left;
+				}
+		/*Technical Interests Section*/
+
+
+		/*5.Experience Section*/
+			.wrapper_exp{
+				flex-direction: column;
+			}
+				.section-five #exp_heading{
+					order: 0;
+				}
+				.wrapper_exp #prof_exp_img{
+					order: 1;
+					width: 32vw;
+					height: 45vh;
+				}
+				.wrapper_exp #para-six{
+					order: 2;
+				}
+				#para-six #prev_exp{
+					text-align: center;
+				}
+		/*Experience Section ends here*/
+
+
+		/*6.Recent Projects Section*/
+			.wrapper_project{
+				flex-direction: column;
+			}
+				.section-six #recent_heading{
+					order: 0;
+				}
+				.wrapper_project #recent_project_img{
+					order: 1;
+					width: 32vw;
+					height: 44vh;
+				}
+				.wrapper_project #para-seven{
+					order: 2;
+				}
+				#para-seven #recent{
+					text-align: center;
+				}
+				#para-seven #project{
+					text-align: center;
+				}
+		/*Recent Projects Section ends here*/
+
+
+		/*7.Contact Information Section*/
+			#linkedin{
+				width: 4.5vw;
+				height: 6vh;
+			}
+			#insta{
+				width: 4.5vw;
+				height: 6vh;				
+			}
+			#facebook{
+				width: 5vw;
+				height: 6vh;
+			}	
+		/*Contact Information Section ends here*/
+	}
+/*Media Query ands here*/
+
+
+/*Media Query for Laptops (upto 1024px)*/
+	@media only screen and (min-width: 769px) and (max-width: 1024px) {
+
+		.container .quote{
+			font-size: 2.4rem;
+		}
+
+		/*1.About-Me Section*/	
+			.section-one #about_heading{
+				font-size: 1.6rem;
+			}
+				.wrapper_about #my-image{
+					width: 20vw;
+					height: 58vh;
+				}	
+				.wrapper_about .para{
+					width: 58vw;
+				}
+				.wrapper_about .para #para-one{
+					font-size: 1.3rem;
+				}
+				.wrapper_about .para #para-two{
+					font-size: 1rem;
+				}
+				.wrapper_about .para #para-two a{
+					font-size: 2.2rem;
+				}
+		/*About-Me Section ends here*/
+
+		
+		/*2.Education Section*/	
+			.section-two #edu_heading{
+				font-size: 1.7rem;
+			}
+				.wrapper_education #education_img{
+					width: 36vw;
+					height: 40vh;
+				}		
+		/*Education Section ends here*/
+
+
+		/*3.Personal Interests Section*/
+			.section-three #intt_heading{
+				font-size: 1.7rem;
+			}
+				.wrapper_interests #info_img{
+					margin-left: 3vw;
+					width: 28vw;
+					height: 50vh;
+				}	
+		/*Personal Interests Section ends here*/
+
+
+		/*4.Technical Interests Section*/
+			.wrapper_tech #intt-tech_img{
+				width: 32vw;
+				height: 60vh;
+			}
+		/*Technical Interests Section ends here*/
+
+
+		/*5.Experience section*/
+			.wrapper_exp #prof_exp_img{	
+			width: 22vw;
+			height: 40vh;
+			}
+		/*Experience section ends here*/
+
+
+		/*6.Recent Projects Section*/
+			.wrapper_project #recent_project_img{
+				width: 22vw;
+				height: 40vh;
+			}
+		/*Recent Projects Section ends here*/
+
+
+		/*7.Contact Information Section*/
+			#linkedin{
+				width: 3.5vw;
+				height: 6vh;
+			}
+			#insta{
+				width: 3.5vw;
+				height: 6vh;				
+			}
+			#facebook{
+				width: 3.8vw;
+				height: 6vh;
+			}	
+		/*Contact Information Section ends here*/
+	}
+/*Media Query ands here*/
+
+
+/*Media Query for L-size Laptop Screens*/
+	@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+
+		.container .quote{
+			font-size: 3rem;
+		}
+
+		/*1.About-Me Section*/	
+			.section-one #about_heading{
+				font-size: 1.9rem;
+			}
+				.wrapper_about #my-image{
+					width: 18vw;
+					height: 63vh;
+				}	
+				.wrapper_about .para{
+					width: 58vw;
+				}
+				.wrapper_about .para #para-one{
+					font-size: 1.9rem;
+				}
+				.wrapper_about .para #para-two{
+					font-size: 1.3rem;
+				}
+				.wrapper_about .para #para-two a{
+					font-size: 2.8rem;
+				}
+		/*About-Me Section ends here*/
+
+
+		/*2.Education Section*/	
+			.section-two #edu_heading{
+				font-size: 2rem;
+			}
+				.wrapper_education #education_img{
+					width: 38vw;
+					height: 43vh;
+				}
+				.wrapper_education .para-three{
+					font-size: 1.15rem;
+				}		
+		/*Education Section ends here*/
+
+
+		/*3.Personal Interests Section*/
+			.section-three #intt_heading{
+				font-size: 2rem;
+			}
+				.wrapper_interests #info_img{
+					margin-left: 3vw;
+					width: 24vw;
+					height: 50vh;
+				}	
+				.wrapper_interests #para-four{
+					font-size: 1.5rem;
+				}
+		/*Personal Interests Section ends here*/
+
+
+		/*4.Technical Interests Section*/
+			.section-four #tech_heading{
+				font-size: 1.5rem;
+			}
+				.wrapper_tech #intt-tech_img{
+					width: 25vw;
+					height: 56vh;
+				}
+				.wrapper_tech #para-five{
+					font-size: 1.2rem;
+				}
+		/*Technical Interests Section ends here*/
+
+
+		/*5.Experience section*/
+			.section-five #exp_heading{
+				font-size: 1.6rem;
+			}
+				.wrapper_exp #prof_exp_img{	
+				width: 22vw;
+				height: 46vh;
+				}
+				.wrapper_exp #para-six{
+					font-size: 1.1rem;
+				}
+		/*Experience section ends here*/
+
+
+		/*6.Recent Projects Section*/
+			.section-six #recent_heading{
+				font-size: 1.6rem;
+			}
+				.wrapper_project #recent_project_img{
+					width: 22vw;
+					height: 47vh;
+				}
+				.wrapper_project #para-seven{
+					font-size: 1.15rem;
+				}
+		/*Recent Projects Section ends here*/
+
+
+		/*7.Contact Information Section*/
+			.section-seven{
+				font-size: 1.1rem;
+			}
+				.wrapper_reach_at #contact_info{
+					font-size: 0.9rem;
+				}
+				#linkedin{
+					width: 3vw;
+					height: 6vh;
+				}
+				#insta{
+					width: 3vw;
+					height: 6vh;				
+				}
+				#facebook{
+					width: 3.2vw;
+					height: 6vh;
+				}	
+		/*Contact Information Section ends here*/
+	}
+/*Media Query ands here*/
+
+
+/*For further more larger displays the default defined layout will be applicable*/	
